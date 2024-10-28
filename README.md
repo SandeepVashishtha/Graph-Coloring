@@ -31,7 +31,7 @@ Getting Started
 ---------------
 
 1.  Clone the repository:
-    `git clone https://github.com/your-username/InteractiveGraphColoringGUI.git`
+    `git clone https://github.com/SandeepVashishtha/Graph-Coloring.git`
 
 2.  Navigate to the project directory and compile the code:
     `javac InteractiveGraphColoringGUI.java`
