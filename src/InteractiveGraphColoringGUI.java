@@ -106,6 +106,9 @@ public class InteractiveGraphColoringGUI extends JPanel {
             Arrays.fill(availableColors, true);
         }
 
+        int maxColor = Arrays.stream(colors).max().orElse(-1) + 1;
+        JOptionPane.showMessageDialog(this, "Minimum number of colors required: " + maxColor);
+
         repaint();
     }
 
